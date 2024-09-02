@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mainlayer{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.name {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 20px;
+}
+
+.name h1, .name p {
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+  }
+  
+.about, .edu, .exp, .awd, .lang {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+}
+
+.about h3 {
+    text-align: justify;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 10px;           
+    margin: 10px;
+}
+
+.card {
+    width: 150px;
+    flex: 1 1 45%;       
+    background-color: #fff;    
+    border: 1px solid #000000;    
+    border-radius: 20px;       
+    padding: 20px;             
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;  
+}
+
+.cardcontent {
+    padding: 5px;
+    text-align: center;
+}
+
+.cardcontent h1{
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.cardcontent h2{
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cardcontent p {
+    font-size: 20px;
+}
+
+.dropdown {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    padding: 15px;
+    width: 70%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+@media(max-width:300px){
+.name h1{
+    font-size: 20px;
+  }
+.name p{
+    font-size: 15px;
+}
+}
+
+
