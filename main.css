@@ -45,6 +45,9 @@ body{
     margin-left: 30px;
     margin-right: 30px;
     background-color: #fff;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
 }
 
 .about h3 {
