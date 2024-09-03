@@ -8,13 +8,25 @@ body{
     background-color: #fff;
     width: 100vw;
     height: 100vh;
+    margin: 0%;
 }
 
 .name {
     display: block;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 15vh;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
     font-size: 20px;
 }
 
@@ -23,6 +35,11 @@ body{
     text-align: center;
     line-height: 1;
   }
+
+.fa-brands.fa-linkedin, .fa-brands.fa-discord, .fa-brands.fa-instagram {
+    color: #000000;
+    justify-content: center;
+}
   
 .about, .edu, .exp, .awd, .lang {
     margin-left: 30px;
